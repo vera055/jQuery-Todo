@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo</title>
+    <link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>todo list</h1>
+        <!-- 提交新任务部分 -->
+        <form class="add-task">
+            <input name="content" type="text" placeholder="接下来做什么呢？">
+            <button>submit</button>
+        </form><!-- 提交新任务结束 -->
+
+        <!-- 列表展示部分开始 -->
+        <div class="task-list">
+            <!--<div class="task-item">-->
+                <!--<span><input type="checkbox"></span>-->
+                <!--<span class="task-content">hello world</span>-->
+                <!--&lt;!&ndash; div.task-item{item content $}*10 &ndash;&gt;-->
+                <!--<span>delete</span>-->
+                <!--<span>detail</span>-->
+            <!--</div>-->
+            <!--<div class="task-item">-->
+                <!--<span><input type="checkbox"></span>-->
+                <!--<span class="task-content">hello world</span>-->
+                <!--&lt;!&ndash; div.task-item{item content $}*10 &ndash;&gt;-->
+                <!--<span>delete</span>-->
+                <!--<span>detail</span>-->
+            <!--</div>-->
+            <!--<div class="task-item">-->
+                <!--<span><input type="checkbox"></span>-->
+                <!--<span class="task-content">hello world</span>-->
+                <!--&lt;!&ndash; div.task-item{item content $}*10 &ndash;&gt;-->
+                <!--<span>delete</span>-->
+                <!--<span>detail</span>-->
+            <!--</div>-->
+            <!--<div class="task-item">-->
+                <!--<span><input type="checkbox"></span>-->
+                <!--<span class="task-content">hello world</span>-->
+                <!--&lt;!&ndash; div.task-item{item content $}*10 &ndash;&gt;-->
+                <!--<span>delete</span>-->
+                <!--<span>detail</span>-->
+            </div><!-- 列表展示部分结束 -->
+            <!-- 任务详情部分开始 -->
+            <div class="task-detail-mask"></div>
+            <div class="task-detail">
+                <div class="content"><!-- 任务标题开始 -->
+                    打扫房间 
+
+                </div>
+                <div class="desc"><!-- 任务描述开始 -->
+                    <textarea id=""></textarea>
+
+                </div>
+                <div class="remind"><!-- 任务提醒开始 -->
+                    <span><input type="date"></span>
+                    <span><button type="submit">submit</button></span></div>
+             </div> <!-- 任务详情部分结束 -->
+        </div><!-- 列表展示部分结束 -->
+
+
+
+    </div>
+    <script src="node_modules/store.js/store.js"></script>
+    <script src="js/base.js"></script>
+</body>
+</html>
